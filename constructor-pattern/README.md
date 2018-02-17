@@ -39,7 +39,7 @@ var personA = new Person('A') // 创建了hello方法，即为此开辟了新空
 var personB = new Person('B') // 同上
 ```
 
-#####结论
+##### 结论
 
 personA和personB都会创建hello方法
 personA和personB共享了hello这个函数，节省了资源
