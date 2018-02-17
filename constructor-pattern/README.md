@@ -107,3 +107,7 @@ function Person(name){
 可以通过prototype来共享方法
 
 要知道在构造函数中return的陷阱
+
+### demo
+
+使用构造函数模式重构了[todo](https://jsfiddle.net/supershy/La5mv06u/)
