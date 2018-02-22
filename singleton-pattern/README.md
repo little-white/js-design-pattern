@@ -50,7 +50,7 @@ console.log(o2.name) // qiqi
 
 由此可见用Object()和对象字面量来创建对象是类似的；用Object.create()创建的对象会多一层原型链，指向创建的对象；用构造函数创建的对象和Object()、对象字面量类似，虽然会多一层原型链，但这层是指向的它原型的构造函数。
 
-###单例实现
+### 单例实现
 
 ```javascript
 var singleton1 = new Object({name: 'qiqi'})
