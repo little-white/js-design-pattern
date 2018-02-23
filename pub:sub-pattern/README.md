@@ -88,5 +88,9 @@ event.emit('eat-fruit', '吃水果')
 * 观察者模式用于同步操作，而发布/订阅模式可用于异步操作。
 * 发布/订阅模式可以作用于多个应用之间的数据通信。
 
+### 参考资料
+
+[Observer vs Pub-Sub pattern](https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c)
+
 
 
