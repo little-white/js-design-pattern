@@ -92,5 +92,7 @@ event.emit('eat-fruit', '吃水果')
 
 [Observer vs Pub-Sub pattern](https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c)
 
+[A simple implementation of the Observer pattern in Javascript.](https://gist.github.com/emosher/3779652)
+
 
 
