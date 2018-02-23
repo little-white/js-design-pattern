@@ -4,7 +4,7 @@
 
 如上图观察者模式定义了一种一(subject)对多(observer)的关系，当一个对象被修改后，会自动地通知它依赖的对象。
 
-###实现subject
+### 实现subject
 
 ```javascript
 var Subject = function(){
