@@ -2,23 +2,25 @@
 
 ![](./pub-sub.png)
 
-当订阅者订阅了一些内容后，他可以继续做其它事情，一旦内容有更新发布者会统一发布这些内容给对应的订阅者，听起来有些抽象，我们慢慢拆分，先看下订阅者吧：
+当订阅者订阅了一些内容后，一旦内容有更新发布者会统一发布这些内容给对应的订阅者，听起来有些抽象，我们慢慢拆分，先看下订阅者吧：
 
 ```javascript
 我们有如下需求，小王小李小张都想吃水果，但水果是一天中的某个时候才会送来，所以他们分别订阅了这个事情
 var xiaowang = {'eat-fruit': function(){
   console.log('小王开始吃水果')
 }}
-xiaowang['eat-fruit']() // 小王开始吃水果
 
 var xiaoli = {'eat-fruit': function(){
   console.log('小李开始吃水果')
 }}
-xiaoli['eat-fruit']() // 小李开始吃水果
 
 var xiaozhang = {'eat-fruit': function(){
   console.log('小张开始吃水果')
 }}
+
+// 当水果送来时执行以下方法
+xiaowang['eat-fruit']() // 小王开始吃水果
+xiaoli['eat-fruit']() // 小李开始吃水果
 xiaozhang['eat-fruit']() // 小张开始吃水果
 ```
 
